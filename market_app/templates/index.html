@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="stats">
+  <article class="card">
+    <span class="label">Companies</span>
+    <strong>{{ summary["companies"] }}</strong>
+  </article>
+  <article class="card">
+    <span class="label">Assets</span>
+    <strong>{{ summary["assets"] }}</strong>
+  </article>
+  <article class="card">
+    <span class="label">Sources</span>
+    <strong>{{ summary["sources"] }}</strong>
+  </article>
+  <article class="card">
+    <span class="label">Scorecards</span>
+    <strong>{{ summary["scores"] }}</strong>
+  </article>
+</section>
+
+<section class="panel">
+  <div class="panel-head">
+    <h2>Top Draft Scores</h2>
+    <a href="{{ url_for('market.companies') }}">View all companies</a>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Company</th>
+        <th>Industry</th>
+        <th>Total Score</th>
+        <th>Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in top_companies %}
+      <tr>
+        <td><a href="{{ url_for('market.company_view', company_id=row['id']) }}">{{ row["name"] }}</a></td>
+        <td>{{ row["industry"] }}</td>
+        <td>{{ row["total_score"] or 0 }}</td>
+        <td><span class="pill">{{ row["rating"] or "Unscored" }}</span></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section class="grid">
+  <article class="panel">
+    <h2>Recommended Data Model</h2>
+    <ul class="clean">
+      <li>`companies` stores identity, sector, industry, and narrative analysis.</li>
+      <li>`scores` stores your five-lens model plus confidence and notes.</li>
+      <li>`assets` stores tradable instruments, transaction costs, and purchase procedure.</li>
+      <li>`sources` stores every supporting URL and evidence excerpt.</li>
+    </ul>
+  </article>
+  <article class="panel">
+    <h2>Automation Draft</h2>
+    <ul class="clean">
+      <li>Seed known entities from official Ethiopian source lists.</li>
+      <li>Fetch public pages and reports into the evidence table.</li>
+      <li>Run an analyzer to draft industry, financial, and valuation notes.</li>
+      <li>Flag low-confidence results for manual review.</li>
+    </ul>
+  </article>
+</section>
+{% endblock %}

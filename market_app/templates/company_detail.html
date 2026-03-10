@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="panel">
+  <div class="panel-head">
+    <div>
+      <p class="eyebrow">{{ company["sector"] }}</p>
+      <h2>{{ company["name"] }}</h2>
+      <p>{{ company["industry"] }} | {{ company["ownership_type"] }} | {{ company["status"] }}</p>
+    </div>
+    <div class="score-box">
+      <span>Total Score</span>
+      <strong>{{ company["total_score"] or 0 }}</strong>
+      <span>{{ company["rating"] or "Unscored" }}</span>
+    </div>
+  </div>
+  <div class="detail-grid">
+    <article>
+      <h3>Company Summary</h3>
+      <p><strong>Regulator:</strong> {{ company["regulator"] }}</p>
+      <p><strong>Website:</strong> <a href="{{ company['website'] }}">{{ company["website"] }}</a></p>
+      <p><strong>Phone:</strong> {{ company["contact_phone"] or "Not listed" }}</p>
+      <p><strong>Email:</strong> {{ company["contact_email"] or "Not listed" }}</p>
+      <p><strong>Address:</strong> {{ company["contact_address"] or "Not listed" }}</p>
+      <p>{{ company["industry_analysis"] }}</p>
+      <p>{{ company["financial_analysis"] }}</p>
+    </article>
+    <article>
+      <h3>Scorecard</h3>
+      <ul class="clean">
+        <li>Economy: {{ company["economy_score"] or 0 }}</li>
+        <li>Industry: {{ company["industry_score"] or 0 }}</li>
+        <li>Business Strength: {{ company["business_strength_score"] or 0 }}</li>
+        <li>Financial Health: {{ company["financial_health_score"] or 0 }}</li>
+        <li>Valuation / Price: {{ company["valuation_score"] or 0 }}</li>
+        <li>Confidence: {{ company["confidence"] or "Low" }}</li>
+      </ul>
+      <p><strong>Economy Notes:</strong> {{ company["economy_notes"] }}</p>
+      <p><strong>Industry Notes:</strong> {{ company["industry_notes"] }}</p>
+      <p><strong>Business Notes:</strong> {{ company["business_notes"] }}</p>
+      <p><strong>Financial Notes:</strong> {{ company["financial_notes"] }}</p>
+      <p><strong>Valuation Notes:</strong> {{ company["valuation_notes"] }}</p>
+    </article>
+  </div>
+</section>
+
+<section class="panel">
+  <div class="detail-grid">
+    <article>
+      <h3>Price Guidance</h3>
+      <p><strong>Current Price:</strong>
+        {% if company.current_price %}{{ company.current_price|round(2) }} ETB{% else %}Not provided{% endif %}
+      </p>
+      {% if company.eps and company.current_price %}
+      {% set yield_pct = (company.eps / company.current_price) * 100 %}
+      <p><strong>Implied Return:</strong> {{ yield_pct|round(1) }}%</p>
+      {% else %}
+      <p><strong>Implied Return:</strong> N/A (publish EPS and price)</p>
+      {% endif %}
+      <p><strong>Implied P/E:</strong>
+        {% if company.implied_pe %}{{ company.implied_pe|round(2) }}{% else %}N/A{% endif %}
+      </p>
+      <p><strong>Target Price for =20% return:</strong>
+        {% if company.target_price_for_20pc %}
+          {{ company.target_price_for_20pc|round(2) }} ETB
+        {% else %}
+          Configure EPS to compute
+        {% endif %}
+      </p>
+      <p><strong>Investor Notes:</strong> {{ company["investor_notes"] or "Use the ESX trading desk to place orders." }}</p>
+    </article>
+    <article>
+      <h3>Contact & Purchase</h3>
+      <p>Call the investor hotline, email the capital markets desk, or visit the head office listed above. Every trade flows through an authorized ESX trading member (e.g., Wegagen Capital).</p>
+      <p>Ask the bank for the ESX investor packet, confirm the share code, and be ready to show your KYC before wiring ETB into an ESX broker wallet.</p>
+    </article>
+  </div>
+</section>
+
+<section class="grid">
+  <article class="panel">
+    <div class="panel-head">
+      <h3>Assets</h3>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Market</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for asset in assets %}
+        <tr>
+          <td>{{ asset["name"] }}</td>
+          <td>{{ asset["asset_type"] }}</td>
+          <td>{{ asset["market"] }}</td>
+          <td>{{ asset["status"] }}</td>
+        </tr>
+        <tr>
+          <td colspan="4">
+            <strong>Transaction Costs:</strong> {{ asset["transaction_costs"] }}<br>
+            <strong>Purchase Procedure:</strong> {{ asset["purchase_procedure"] }}<br>
+            <strong>Eligibility:</strong> {{ asset["eligibility_requirements"] }}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <form method="post" action="{{ url_for('market.asset_new', company_id=company['id']) }}" class="form-grid compact">
+      <label>Name<input name="name" required></label>
+      <label>Asset Type<input name="asset_type"></label>
+      <label>Market<input name="market"></label>
+      <label>Status<input name="status" value="Research"></label>
+      <label class="wide">Transaction Costs<textarea name="transaction_costs" rows="2"></textarea></label>
+      <label class="wide">Purchase Procedure<textarea name="purchase_procedure" rows="2"></textarea></label>
+      <label class="wide">Eligibility<textarea name="eligibility_requirements" rows="2"></textarea></label>
+      <button type="submit">Add asset</button>
+    </form>
+  </article>
+
+  <article class="panel">
+    <h3>Sources</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Type</th>
+          <th>Date</th>
+          <th>Reliability</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for source in sources %}
+        <tr>
+          <td><a href="{{ source['url'] }}">{{ source["title"] }}</a></td>
+          <td>{{ source["source_type"] }}</td>
+          <td>{{ source["source_date"] or "" }}</td>
+          <td>{{ source["reliability"] }}</td>
+        </tr>
+        <tr>
+          <td colspan="4">{{ source["excerpt"] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <form method="post" action="{{ url_for('market.source_new', company_id=company['id']) }}" class="form-grid compact">
+      <label>Title<input name="title" required></label>
+      <label>Source Type<input name="source_type" value="Website"></label>
+      <label>URL<input name="url"></label>
+      <label>Date<input name="source_date" type="date"></label>
+      <label>Reliability<input name="reliability" value="Medium"></label>
+      <label class="wide">Excerpt<textarea name="excerpt" rows="3"></textarea></label>
+      <button type="submit">Add source</button>
+    </form>
+  </article>
+</section>
+{% endblock %}

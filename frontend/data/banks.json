@@ -1,0 +1,1990 @@
+[
+  {
+    "id": 40,
+    "name": "Abay Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.abaybank.com.et/",
+    "status": "Tracked",
+    "industry_analysis": "Abay Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 7671m ETB vs profit 1551m ETB (implied EPS 202.19).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 10,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 2,
+    "eps": 202.19,
+    "implied_pe": 4.95,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 1010.9499999999999,
+    "assets": [
+      {
+        "name": "ABAYETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Abay Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Abay Bank official website",
+        "url": "http://www.abaybank.com.et/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 1010.95 ETB"
+  },
+  {
+    "id": 43,
+    "name": "Awash International Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.awashbank.com/",
+    "status": "Tracked",
+    "industry_analysis": "Awash International Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 27968m ETB vs profit 6994m ETB (implied EPS 250.07).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 10,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 2,
+    "eps": 250.07,
+    "implied_pe": 4.0,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 1250.35,
+    "assets": [
+      {
+        "name": "AWINETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Awash International Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Awash International Bank official website",
+        "url": "http://www.awashbank.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 1250.35 ETB"
+  },
+  {
+    "id": 44,
+    "name": "Bank of Abyssinia",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.bankofabyssinia.com/",
+    "status": "Tracked",
+    "industry_analysis": "Bank of Abyssinia plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 19475m ETB vs profit 3873m ETB (implied EPS 198.87).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 10,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 2,
+    "eps": 198.87,
+    "implied_pe": 5.03,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 994.35,
+    "assets": [
+      {
+        "name": "ABYSETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Bank of Abyssinia entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Bank of Abyssinia official website",
+        "url": "http://www.bankofabyssinia.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 994.35 ETB"
+  },
+  {
+    "id": 47,
+    "name": "Commercial Bank of Ethiopia",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "State",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.combanketh.et/",
+    "status": "Tracked",
+    "industry_analysis": "Commercial Bank of Ethiopia plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 74643m ETB vs profit 17437m ETB (implied EPS 233.61).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 10,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 2,
+    "eps": 233.61,
+    "implied_pe": 4.28,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 1168.05,
+    "assets": [
+      {
+        "name": "CBETETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Commercial Bank of Ethiopia entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Commercial Bank of Ethiopia official website",
+        "url": "https://www.combanketh.et/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 1168.05 ETB"
+  },
+  {
+    "id": 48,
+    "name": "Cooperative Bank of Oromia",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://coopbankoromia.com.et/",
+    "status": "Tracked",
+    "industry_analysis": "Cooperative Bank of Oromia plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 14874m ETB vs profit 2604m ETB (implied EPS 175.07).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 10,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 2,
+    "eps": 175.07,
+    "implied_pe": 5.71,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 875.3499999999999,
+    "assets": [
+      {
+        "name": "CBORETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Cooperative Bank of Oromia entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Cooperative Bank of Oromia official website",
+        "url": "https://coopbankoromia.com.et/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 875.35 ETB"
+  },
+  {
+    "id": 50,
+    "name": "Global Bank Ethiopia",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.globalbankethiopia.com/",
+    "status": "Tracked",
+    "industry_analysis": "Global Bank Ethiopia plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 2953m ETB vs profit 523m ETB (implied EPS 177.11).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 10,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 2,
+    "eps": 177.11,
+    "implied_pe": 5.65,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 885.5500000000001,
+    "assets": [
+      {
+        "name": "DEGAETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Global Bank Ethiopia entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Global Bank Ethiopia official website",
+        "url": "https://www.globalbankethiopia.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 885.55 ETB"
+  },
+  {
+    "id": 54,
+    "name": "Hibret Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.hibretbank.com.et/",
+    "status": "Tracked",
+    "industry_analysis": "Hibret Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 9372m ETB vs profit 2298m ETB (implied EPS 245.2).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 10,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 2,
+    "eps": 245.2,
+    "implied_pe": 4.08,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 1225.9999999999998,
+    "assets": [
+      {
+        "name": "UNTDETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Hibret Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Hibret Bank official website",
+        "url": "https://www.hibretbank.com.et/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 1226.00 ETB"
+  },
+  {
+    "id": 56,
+    "name": "Zemen Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.zemenbank.com/",
+    "status": "Tracked",
+    "industry_analysis": "Zemen Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 8480m ETB vs profit 1813m ETB (implied EPS 213.8).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 10,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 2,
+    "eps": 213.8,
+    "implied_pe": 4.68,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 1069.0,
+    "assets": [
+      {
+        "name": "ZEMEETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Zemen Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Zemen Bank official website",
+        "url": "http://www.zemenbank.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 1069.00 ETB"
+  },
+  {
+    "id": 45,
+    "name": "Berhan International Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://berhanbanksc.com/",
+    "status": "Tracked",
+    "industry_analysis": "Berhan International Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 5029m ETB vs profit 509m ETB (implied EPS 101.21).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 9,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 1,
+    "eps": 101.21,
+    "implied_pe": 9.88,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 506.04999999999995,
+    "assets": [
+      {
+        "name": "BERHETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Berhan International Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Berhan International Bank official website",
+        "url": "http://berhanbanksc.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 506.05 ETB"
+  },
+  {
+    "id": 57,
+    "name": "Development Bank of Ethiopia",
+    "sector": "Development Banking",
+    "industry": "Development Banking",
+    "ownership_type": "State",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.dbe.com.et/",
+    "status": "Tracked",
+    "industry_analysis": "Development Bank of Ethiopia plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 37070m ETB vs profit 5738m ETB (implied EPS 154.79).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 9,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 1,
+    "eps": 154.79,
+    "implied_pe": 6.46,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 773.9499999999999,
+    "assets": [
+      {
+        "name": "DBEETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Development Bank of Ethiopia entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Development Bank of Ethiopia official website",
+        "url": "http://www.dbe.com.et/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 773.95 ETB"
+  },
+  {
+    "id": 51,
+    "name": "Enat Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.enatbanksc.com/",
+    "status": "Tracked",
+    "industry_analysis": "Enat Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 3577m ETB vs profit 544m ETB (implied EPS 152.08).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 9,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 1,
+    "eps": 152.08,
+    "implied_pe": 6.58,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 760.4,
+    "assets": [
+      {
+        "name": "ENATETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Enat Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Enat Bank official website",
+        "url": "http://www.enatbanksc.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 760.40 ETB"
+  },
+  {
+    "id": 39,
+    "name": "Nib International Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.nibbanksc.com/",
+    "status": "Tracked",
+    "industry_analysis": "Nib International Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 9973m ETB vs profit 1507m ETB (implied EPS 151.11).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 9,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 1,
+    "eps": 151.11,
+    "implied_pe": 6.62,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 755.5500000000001,
+    "assets": [
+      {
+        "name": "NIBIETTA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Nib International Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Nib International Bank official website",
+        "url": "https://www.nibbanksc.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 755.55 ETB"
+  },
+  {
+    "id": 64,
+    "name": "Tsedey Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://tsedeybank-sc.com",
+    "status": "Tracked",
+    "industry_analysis": "Tsedey Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 12320m ETB vs profit 1055m ETB (implied EPS 85.63).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 9,
+    "rating": "Strong",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 1,
+    "eps": 85.63,
+    "implied_pe": 11.68,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 428.15,
+    "assets": [
+      {
+        "name": "TSDYETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Tsedey Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Tsedey Bank official website",
+        "url": "https://tsedeybank-sc.com",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 428.15 ETB"
+  },
+  {
+    "id": 41,
+    "name": "Addis International Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.addisbanksc.com/",
+    "status": "Tracked",
+    "industry_analysis": "Addis International Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 2582m ETB vs profit 223m ETB (implied EPS 86.37).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 8,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 2,
+    "valuation_score": 1,
+    "eps": 86.37,
+    "implied_pe": 11.58,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 431.85,
+    "assets": [
+      {
+        "name": "ABSCETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Addis International Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Addis International Bank official website",
+        "url": "http://www.addisbanksc.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 431.85 ETB"
+  },
+  {
+    "id": 46,
+    "name": "Bunna International Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.bunnabanksc.com/",
+    "status": "Tracked",
+    "industry_analysis": "Bunna International Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity Nonem ETB vs profit 949m ETB (implied EPS None).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 8,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 0,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "BUNAETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Bunna International Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Bunna International Bank official website",
+        "url": "http://www.bunnabanksc.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  },
+  {
+    "id": 6,
+    "name": "Dashen Bank Share Company",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia / Ethiopian Securities Exchange",
+    "website": "https://dashenbanksc.com",
+    "status": "Registration complete; planned ESX listing",
+    "industry_analysis": "Private banks with strong deposit franchises and recognizable brands are likely to be among the deeper pools of future Ethiopian public issuers. The sector remains competitive, but listing progress is concentrated among stronger institutions with governance and scale.",
+    "financial_analysis": "Dashen appears to be further along than most private issuers because ESX publicly confirmed completion of its registration process and approval in principle toward listing. Until the final listing is complete and more filing history is available, valuation and liquidity should still be treated as provisional.",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "",
+    "total_score": 8,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 1,
+    "valuation_score": 1,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 0.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "Dashen Bank shareholding interest",
+        "asset_type": "Planned Listed Equity / Pre-listing Share",
+        "market": "Pre-listing / pending ESX Main Board",
+        "transaction_costs": "Current costs depend on issuer-approved transfer mechanics, documentation, and any intermediary charges. Public-market fees should become clearer after final listing.",
+        "purchase_procedure": "Before listing, investors should verify transferability and issuer procedures. After listing, purchase should move to approved ESX intermediaries and standard investor-account workflows.",
+        "eligibility_requirements": "Depends on current transfer rules before listing and standard KYC after listing.",
+        "currency": "ETB",
+        "status": "Research"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Official Exchange News",
+        "title": "ESX welcomes Dashen Bank's progress toward planned listing",
+        "url": "https://esx.et/esx-welcomes-dashen-banks-progress-toward-planned-listing/",
+        "source_date": "2026-03-10",
+        "excerpt": "ESX says Dashen completed its registration process and received approval in principle toward listing, subject to remaining requirements.",
+        "reliability": "High"
+      },
+      {
+        "source_type": "Official Website",
+        "title": "Dashen Bank official website",
+        "url": "https://dashenbanksc.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used for issuer identity and institutional reference.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  },
+  {
+    "id": 52,
+    "name": "Lion International Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.anbesabank.com/",
+    "status": "Tracked",
+    "industry_analysis": "Lion International Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity Nonem ETB vs profit 747m ETB (implied EPS None).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 8,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 2,
+    "valuation_score": 0,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "LIBSETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Lion International Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Lion International Bank official website",
+        "url": "http://www.anbesabank.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  },
+  {
+    "id": 4,
+    "name": "Wegagen Bank Share Company",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia / Ethiopian Securities Exchange",
+    "website": "https://www.wegagen.com",
+    "status": "Listed on ESX",
+    "industry_analysis": "Banking is one of the first sectors to reach Ethiopia's formal public market. Regulation, deposit franchise economics, and branch-driven customer acquisition create high barriers to entry, while market liberalization and digital payments reforms continue to deepen the sector.",
+    "financial_analysis": "Wegagen is already on the ESX Main Market, which improves disclosure relative to most Ethiopian issuers. Financial assessment should still lean on the posted annual and interim reports because live market-price depth remains limited in the early ESX period.",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "",
+    "total_score": 8,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 2,
+    "financial_health_score": 1,
+    "valuation_score": 1,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 0.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "Wegagen Bank ordinary shares (WGBX)",
+        "asset_type": "Listed Equity",
+        "market": "ESX Main Market",
+        "transaction_costs": "Use a licensed ESX trading member. Costs will typically include brokerage/intermediation fees and any exchange or custody charges applied by the intermediary.",
+        "purchase_procedure": "Open an investment account through an approved ESX intermediary, complete KYC, fund the account, and place an order for WGBX once market access is available.",
+        "eligibility_requirements": "Investor account, KYC, and access through an authorized market intermediary.",
+        "currency": "ETB",
+        "status": "Active"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Official Exchange Listing",
+        "title": "ESX profile for Wegagen Bank Share Company",
+        "url": "https://esx.et/directory/wegagen-bank-share-company/",
+        "source_date": "2026-03-10",
+        "excerpt": "ESX lists Wegagen Bank as WGBX on the Main Market with listing date January 10, 2025.",
+        "reliability": "High"
+      },
+      {
+        "source_type": "Official Exchange Listing",
+        "title": "ESX listed companies page",
+        "url": "https://esx.et/equity-market/listed-companies/",
+        "source_date": "2026-03-10",
+        "excerpt": "Listed capital, listed shares, number of shareholders, and business classification are published on the ESX listed companies page.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  },
+  {
+    "id": 62,
+    "name": "Ahadu Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.ahadubank.com/",
+    "status": "Tracked",
+    "industry_analysis": "Ahadu Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 3096m ETB vs profit -194m ETB (implied EPS -62.66).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 0,
+    "valuation_score": 2,
+    "eps": -62.66,
+    "implied_pe": -15.96,
+    "current_price": 1000.0,
+    "target_price_for_20pc": -313.29999999999995,
+    "assets": [
+      {
+        "name": "AHUUETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Ahadu Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Ahadu Bank official website",
+        "url": "https://www.ahadubank.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: -313.30 ETB"
+  },
+  {
+    "id": 42,
+    "name": "Amhara Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.amharabank.com.et/",
+    "status": "Tracked",
+    "industry_analysis": "Amhara Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 5879m ETB vs profit -170m ETB (implied EPS -28.92).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 0,
+    "valuation_score": 2,
+    "eps": -28.92,
+    "implied_pe": -34.58,
+    "current_price": 1000.0,
+    "target_price_for_20pc": -144.6,
+    "assets": [
+      {
+        "name": "AMHRETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Amhara Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Amhara Bank official website",
+        "url": "https://www.amharabank.com.et/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: -144.60 ETB"
+  },
+  {
+    "id": 49,
+    "name": "Dashen Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.dashenbanksc.com",
+    "status": "Tracked",
+    "industry_analysis": "Dashen Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 19319m ETB vs profit 35m ETB (implied EPS 1.81).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 2,
+    "valuation_score": 0,
+    "eps": 1.81,
+    "implied_pe": 552.49,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 9.049999999999999,
+    "assets": [
+      {
+        "name": "DASHETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Dashen Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Dashen Bank official website",
+        "url": "http://www.dashenbanksc.com",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 9.05 ETB"
+  },
+  {
+    "id": 65,
+    "name": "Gadaa Bank SC",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://gadaabank.com.et/",
+    "status": "Tracked",
+    "industry_analysis": "Gadaa Bank SC plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 808m ETB vs profit -84m ETB (implied EPS -103.96).",
+    "contact_phone": "+251 116 392578",
+    "contact_email": "info@gadaabank.com.et",
+    "contact_address": "Gotera, Kirkos SubCity W-03",
+    "investor_notes": "Gadaa Bank shares trade as GDAB on ESX; a trading member is required to transact.",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 0,
+    "valuation_score": 2,
+    "eps": -103.96,
+    "implied_pe": -9.62,
+    "current_price": 1000.0,
+    "target_price_for_20pc": -519.8,
+    "assets": [
+      {
+        "name": "GDAAETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Gadaa Bank SC entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Gadaa Bank SC official website",
+        "url": "https://gadaabank.com.et/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: -519.80 ETB"
+  },
+  {
+    "id": 5,
+    "name": "Gadaa Bank Share Company",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia / Ethiopian Securities Exchange",
+    "website": "https://gadaabank.com.et",
+    "status": "Listed on ESX",
+    "industry_analysis": "Newer Ethiopian banks can now reach capital markets much earlier in their lifecycle than before, which is meaningful for sector development. Competition among banks is intense, but public listing can improve governance, capital access, and investor visibility.",
+    "financial_analysis": "Gadaa has a much shorter operating history than older peers, so financial quality needs to be read with more caution. Its completed ESX listing and available prospectus improve transparency, but the shorter track record argues for a more moderate business and financial score than the oldest listed banks.",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 1,
+    "valuation_score": 1,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 0.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "Gadaa Bank ordinary shares (GDAB)",
+        "asset_type": "Listed Equity",
+        "market": "ESX Main Market",
+        "transaction_costs": "Expected to run through licensed intermediaries with brokerage, exchange, and custody-related charges depending on the provider.",
+        "purchase_procedure": "Open an investment account with an approved ESX trading member, complete KYC, deposit funds, and submit an order for GDAB.",
+        "eligibility_requirements": "Investor account and intermediary onboarding requirements.",
+        "currency": "ETB",
+        "status": "Active"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Official Exchange Listing",
+        "title": "ESX profile for Gadaa Bank Share Company",
+        "url": "https://esx.et/directory/gadaa-bank-share-company/",
+        "source_date": "2026-03-10",
+        "excerpt": "ESX lists Gadaa Bank as GDAB with listing date June 13, 2025 and Main Market classification.",
+        "reliability": "High"
+      },
+      {
+        "source_type": "Official Exchange News",
+        "title": "ESX announcement on Gadaa Bank listing",
+        "url": "https://esx.et/gadaa-bank-s-c-officially-listed-on-the-ethiopian-securities-exchange/",
+        "source_date": "2026-03-10",
+        "excerpt": "ESX states Gadaa Bank became the second bank listed on the exchange after ECMA prospectus approval in June 2025.",
+        "reliability": "High"
+      },
+      {
+        "source_type": "Official Regulator Directory",
+        "title": "NBE banks directory entry for Gadaa Bank",
+        "url": "https://nbe.gov.et/financial-institutions/banks/",
+        "source_date": "2026-03-10",
+        "excerpt": "NBE includes Gadaa Bank in its official banks directory, confirming establishment and institution status.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  },
+  {
+    "id": 63,
+    "name": "Goh Betoch Bank SC",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.gohbetbank.com/",
+    "status": "Tracked",
+    "industry_analysis": "Goh Betoch Bank SC plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 1545m ETB vs profit 5m ETB (implied EPS 3.24).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 2,
+    "valuation_score": 0,
+    "eps": 3.24,
+    "implied_pe": 308.64,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 16.2,
+    "assets": [
+      {
+        "name": "GOBTETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Goh Betoch Bank SC entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Goh Betoch Bank SC official website",
+        "url": "https://www.gohbetbank.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 16.20 ETB"
+  },
+  {
+    "id": 59,
+    "name": "Hijra Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.hijra-bank.com/",
+    "status": "Tracked",
+    "industry_analysis": "Hijra Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 1195m ETB vs profit 28m ETB (implied EPS 23.43).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 2,
+    "valuation_score": 0,
+    "eps": 23.43,
+    "implied_pe": 42.68,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 117.14999999999999,
+    "assets": [
+      {
+        "name": "HIJRETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Hijra Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Hijra Bank official website",
+        "url": "https://www.hijra-bank.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 117.15 ETB"
+  },
+  {
+    "id": 53,
+    "name": "Oromia International Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.oromiabank.com/",
+    "status": "Tracked",
+    "industry_analysis": "Oromia International Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 8658m ETB vs profit -417m ETB (implied EPS -48.16).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 0,
+    "valuation_score": 2,
+    "eps": -48.16,
+    "implied_pe": -20.76,
+    "current_price": 1000.0,
+    "target_price_for_20pc": -240.79999999999998,
+    "assets": [
+      {
+        "name": "ORIRETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Oromia International Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Oromia International Bank official website",
+        "url": "http://www.oromiabank.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: -240.80 ETB"
+  },
+  {
+    "id": 61,
+    "name": "Shabelle Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "http://www.shabellebank.com/",
+    "status": "Tracked",
+    "industry_analysis": "Shabelle Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 669m ETB vs profit 20m ETB (implied EPS 29.9).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 2,
+    "valuation_score": 0,
+    "eps": 29.9,
+    "implied_pe": 33.44,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 149.49999999999997,
+    "assets": [
+      {
+        "name": "SBEEETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Shabelle Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Shabelle Bank official website",
+        "url": "http://www.shabellebank.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 149.50 ETB"
+  },
+  {
+    "id": 60,
+    "name": "Siinqee Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.siinqeebank.com/",
+    "status": "Tracked",
+    "industry_analysis": "Siinqee Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 8479m ETB vs profit 285m ETB (implied EPS 33.61).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 2,
+    "valuation_score": 0,
+    "eps": 33.61,
+    "implied_pe": 29.75,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 168.04999999999998,
+    "assets": [
+      {
+        "name": "SINQETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Siinqee Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Siinqee Bank official website",
+        "url": "https://www.siinqeebank.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "Target price for 20% yield: 168.05 ETB"
+  },
+  {
+    "id": 58,
+    "name": "ZamZam Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://v2.zamzambank.com/",
+    "status": "Tracked",
+    "industry_analysis": "ZamZam Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity Nonem ETB vs profit 24m ETB (implied EPS None).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 7,
+    "rating": "Good",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 2,
+    "valuation_score": 0,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "ZAMZETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "ZamZam Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "ZamZam Bank official website",
+        "url": "https://v2.zamzambank.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  },
+  {
+    "id": 67,
+    "name": "Ethio Telecom Share Company",
+    "sector": "Telecommunications",
+    "industry": "Telecommunications",
+    "ownership_type": "State",
+    "regulator": "Ethiopian Communications Authority",
+    "website": "https://www.ethiotelecom.et/",
+    "status": "Tracked",
+    "industry_analysis": "Ethio Telecom Share Company plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity Nonem ETB vs profit Nonem ETB (implied EPS None).",
+    "contact_phone": "+251 116 178000",
+    "contact_email": "info@ethiotelecom.et",
+    "contact_address": "Ethio Telecom HQ, Addis Ababa",
+    "investor_notes": "Partial privatization rests with the Ethiopian Communications Authority; wait for upcoming ESX disclosures.",
+    "total_score": 5,
+    "rating": "Moderate",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 0,
+    "valuation_score": 0,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 300.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "TELE equity",
+        "asset_type": "Listed Equity",
+        "market": "ESX",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 300 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Ethio Telecom Share Company entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Ethio Telecom Share Company official website",
+        "url": "https://www.ethiotelecom.et/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  },
+  {
+    "id": 66,
+    "name": "Rammis Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.rammisbank.et/",
+    "status": "Tracked",
+    "industry_analysis": "Rammis Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity 747m ETB vs profit Nonem ETB (implied EPS None).",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "Use the bank website and your ESX intermediary as the next step.",
+    "total_score": 5,
+    "rating": "Moderate",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 0,
+    "valuation_score": 0,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "RMSIETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Rammis Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Rammis Bank official website",
+        "url": "https://www.rammisbank.et/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  },
+  {
+    "id": 55,
+    "name": "Wegagen Bank",
+    "sector": "Financial Services",
+    "industry": "Banking & Financial Services",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://www.wegagen.com/",
+    "status": "Tracked",
+    "industry_analysis": "Wegagen Bank plays in Ethiopia's reforming banking sector; growth is tied to digitization and deposit mobilization.",
+    "financial_analysis": "Equity Nonem ETB vs profit Nonem ETB (implied EPS None).",
+    "contact_phone": "+251 115 523800",
+    "contact_email": "info@wegagenbanksc.com.et",
+    "contact_address": "Wegagen Tower, Addis Ababa",
+    "investor_notes": "Use the ESX trading desk and Wegagen Capital for the listed WGBX shares.",
+    "total_score": 5,
+    "rating": "Moderate",
+    "economy_score": 2,
+    "industry_score": 2,
+    "business_strength_score": 1,
+    "financial_health_score": 0,
+    "valuation_score": 0,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 1000.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "WEGAETAA equity",
+        "asset_type": "Private Share",
+        "market": "ESX / OTC",
+        "transaction_costs": "Brokerage fee + ESX clearing; assumed ESX-style commissions.",
+        "purchase_procedure": "Open ESX investor account, complete KYC, fund with ETB, and buy at approx 1000 per share.",
+        "eligibility_requirements": "ESX-licensed intermediary access and local KYC.",
+        "currency": "ETB",
+        "status": "Tracked"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Wikipedia list",
+        "title": "Wegagen Bank entry on List of banks in Ethiopia",
+        "url": "https://en.wikipedia.org/wiki/List_of_banks_in_Ethiopia",
+        "source_date": "2026-03-10",
+        "excerpt": "Equity, profit, and founding info pulled from the Wikipedia table.",
+        "reliability": "Medium"
+      },
+      {
+        "source_type": "Corporate website",
+        "title": "Wegagen Bank official website",
+        "url": "https://www.wegagen.com/",
+        "source_date": "2026-03-10",
+        "excerpt": "Used to verify regulator, service offering, and contact details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  },
+  {
+    "id": 9,
+    "name": "Bunna Insurance S.C.",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://bunnainsurance.com/",
+    "status": "Private / potential future market candidate",
+    "industry_analysis": "Insurance remains one of the next likely sectors for Ethiopia's capital market broadening, especially as ESX has been actively engaging insurers in 2026. Firms with recurring underwriting operations and investable balance sheets could become future listings or institutional market participants.",
+    "financial_analysis": "Bunna provides annual reports on its official site, which is useful for future structured extraction. In this draft pass, the existence of current annual reports and its regulated status support inclusion, but valuation remains unverified because no public trading venue was confirmed.",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "",
+    "total_score": 4,
+    "rating": "Avoid",
+    "economy_score": 1,
+    "industry_score": 1,
+    "business_strength_score": 1,
+    "financial_health_score": 1,
+    "valuation_score": 0,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 0.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "Bunna Insurance shareholding interest",
+        "asset_type": "Private Share / OTC-style transfer",
+        "market": "Private transfer",
+        "transaction_costs": "Likely to include transfer documentation, approval steps, and any legal or intermediary fees involved in private transactions.",
+        "purchase_procedure": "Confirm transferability with the company, verify shareholder documentation, and process the transfer under company and legal requirements.",
+        "eligibility_requirements": "Buyer identity and transfer approvals may apply.",
+        "currency": "ETB",
+        "status": "Research"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Official Regulator Directory",
+        "title": "NBE insurers directory entry for Bunna Insurance",
+        "url": "https://nbe.gov.et/financial-institutions/insurers/",
+        "source_date": "2026-03-10",
+        "excerpt": "NBE lists Bunna Insurance as an established insurer.",
+        "reliability": "High"
+      },
+      {
+        "source_type": "Official Website",
+        "title": "Bunna Insurance publication page",
+        "url": "https://bunnainsurance.com/Home/Publication",
+        "source_date": "2026-03-10",
+        "excerpt": "Bunna Insurance publishes annual reports for 2024-2025 and earlier years on its official site.",
+        "reliability": "High"
+      },
+      {
+        "source_type": "Official Exchange News",
+        "title": "ESX insurance information session",
+        "url": "https://esx.et/",
+        "source_date": "2026-03-10",
+        "excerpt": "ESX reported on March 9, 2026 that it held an information session with insurance companies on listing and OTC opportunities.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  },
+  {
+    "id": 8,
+    "name": "Zemen Insurance S.C.",
+    "sector": "Financial Services",
+    "industry": "Insurance",
+    "ownership_type": "Private",
+    "regulator": "National Bank of Ethiopia",
+    "website": "https://zemeninsurance.com/",
+    "status": "Private / potential future market candidate",
+    "industry_analysis": "Insurance is still earlier than banking in Ethiopia's public-market development, but the sector is institutionally important and increasingly visible to ESX as a future issuer and investor base. Competitive intensity is meaningful, yet regulatory licensing and capital requirements still provide barriers to entry.",
+    "financial_analysis": "Zemen is a relatively young insurer, and public market data is limited. Its official site provides establishment history, branch growth, and high-level balance sheet figures, which supports a cautious but positive early assessment rather than a high-conviction score.",
+    "contact_phone": "",
+    "contact_email": "",
+    "contact_address": "",
+    "investor_notes": "",
+    "total_score": 4,
+    "rating": "Avoid",
+    "economy_score": 1,
+    "industry_score": 1,
+    "business_strength_score": 1,
+    "financial_health_score": 1,
+    "valuation_score": 0,
+    "eps": 0.0,
+    "implied_pe": 0.0,
+    "current_price": 0.0,
+    "target_price_for_20pc": 0.0,
+    "assets": [
+      {
+        "name": "Zemen Insurance shareholding interest",
+        "asset_type": "Private Share / OTC-style transfer",
+        "market": "Private transfer",
+        "transaction_costs": "Costs depend on transfer approval, legal documentation, and any intermediary support used for private transactions.",
+        "purchase_procedure": "Verify whether shares are transferable, confirm company register or certificate evidence, complete KYC and transfer documentation, and follow company-approved procedures.",
+        "eligibility_requirements": "Buyer identity and company approval requirements may apply.",
+        "currency": "ETB",
+        "status": "Research"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "Official Regulator Directory",
+        "title": "NBE insurers directory entry for Zemen Insurance",
+        "url": "https://nbe.gov.et/financial-institutions/insurers/",
+        "source_date": "2026-03-10",
+        "excerpt": "NBE lists Zemen Insurance as an established licensed insurer.",
+        "reliability": "High"
+      },
+      {
+        "source_type": "Official Website",
+        "title": "Zemen Insurance about page",
+        "url": "https://zemeninsurance.com/about-us/",
+        "source_date": "2026-03-10",
+        "excerpt": "The company states it was established in 2020 and reports assets, paid-up capital, and branch expansion details.",
+        "reliability": "High"
+      }
+    ],
+    "price_notes": "EPS or price missing"
+  }
+]

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="panel">
+  <div class="panel-head">
+    <h2>Companies</h2>
+    <a href="{{ url_for('market.company_new') }}">Add company</a>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Sector</th>
+        <th>Industry</th>
+        <th>Total</th>
+        <th>Rating</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for company in companies %}
+      <tr>
+        <td><a href="{{ url_for('market.company_view', company_id=company['id']) }}">{{ company["name"] }}</a></td>
+        <td>{{ company["sector"] }}</td>
+        <td>{{ company["industry"] }}</td>
+        <td>{{ company["total_score"] or 0 }}</td>
+        <td>{{ company["rating"] or "Unscored" }}</td>
+        <td>{{ company["status"] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

@@ -1,0 +1,184 @@
+:root {
+  --bg: #f5efe2;
+  --panel: #fffdf8;
+  --ink: #1b1a17;
+  --muted: #6b655c;
+  --line: #d7cdbb;
+  --brand: #0f766e;
+  --accent: #c2410c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(194, 65, 12, 0.12), transparent 24%),
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.12), transparent 22%),
+    var(--bg);
+}
+
+a {
+  color: var(--brand);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem 3rem;
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 253, 248, 0.75);
+  backdrop-filter: blur(10px);
+}
+
+.hero nav {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.layout {
+  padding: 2rem 3rem 3rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  font-size: 0.78rem;
+}
+
+.subtitle,
+.label {
+  color: var(--muted);
+}
+
+.stats,
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card,
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1.2rem;
+  box-shadow: 0 12px 30px rgba(27, 26, 23, 0.05);
+}
+
+.card strong {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 2rem;
+}
+
+.panel-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.75rem 0.5rem;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.pill,
+.score-box {
+  background: rgba(15, 118, 110, 0.08);
+  border: 1px solid rgba(15, 118, 110, 0.2);
+  border-radius: 999px;
+  padding: 0.25rem 0.7rem;
+}
+
+.score-box {
+  border-radius: 18px;
+  display: grid;
+  text-align: center;
+  min-width: 140px;
+  padding: 1rem;
+}
+
+.score-box strong {
+  font-size: 2rem;
+}
+
+.detail-grid,
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.form-grid label {
+  display: grid;
+  gap: 0.4rem;
+  font-size: 0.95rem;
+}
+
+.form-grid .wide {
+  grid-column: 1 / -1;
+}
+
+.compact {
+  margin-top: 1rem;
+}
+
+input,
+select,
+textarea,
+button {
+  font: inherit;
+  padding: 0.7rem 0.8rem;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: white;
+}
+
+button {
+  background: var(--brand);
+  color: white;
+  border: none;
+  cursor: pointer;
+  max-width: 220px;
+}
+
+.clean {
+  padding-left: 1rem;
+}
+
+@media (max-width: 800px) {
+  .hero,
+  .detail-grid,
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 1.25rem;
+    flex-direction: column;
+  }
+
+  .layout {
+    padding: 1.25rem;
+  }
+}

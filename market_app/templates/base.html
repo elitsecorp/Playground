@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ethiopian Market Intelligence</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <p class="eyebrow">Draft System</p>
+        <h1>Ethiopian Market Intelligence</h1>
+        <p class="subtitle">Company database, asset registry, source evidence, and five-lens scoring in one draft Flask app.</p>
+      </div>
+      <nav>
+        <a href="{{ url_for('market.index') }}">Dashboard</a>
+        <a href="{{ url_for('market.companies') }}">Companies</a>
+        <a href="{{ url_for('market.company_new') }}">Add Company</a>
+        <a href="{{ url_for('market.setup') }}">Reset Demo Data</a>
+      </nav>
+    </header>
+    <main class="layout">
+      {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>
