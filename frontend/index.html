@@ -10,15 +10,41 @@
     <header class="hero">
       <div>
         <p class="eyebrow">Static insight</p>
-        <h1>Ethiopian Banking & Telecom Scores</h1>
-        <p>Price guidance, contact data, and investor-ready notes for every tracked entity.</p>
+        <h1>Ethiopian Financial Scorecards</h1>
+        <p>Filter, sort, and target the best opportunities across banks, MFIs, SACCOs, and telecom investors.</p>
       </div>
       <button class="action" onclick="window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'})">
-        See price targets
+        Jump to target prices
       </button>
     </header>
 
-    <main id="app" class="grid loading">
+    <section class="controls">
+      <label>
+        Industry
+        <select id="industryFilter">
+          <option value="">All</option>
+        </select>
+      </label>
+      <label>
+        Min Score
+        <input id="scoreFilter" type="number" min="0" max="10" value="0" />
+      </label>
+      <label>
+        Sort By
+        <select id="sortSelect">
+          <option value="score">Score ?</option>
+          <option value="price">Price ?</option>
+          <option value="pe">P/E ?</option>
+          <option value="target">Target Price ?</option>
+        </select>
+      </label>
+      <label>
+        Search
+        <input id="searchInput" type="search" placeholder="Search name, note, contact" />
+      </label>
+    </section>
+
+    <main id="app" class="grid">
       <p>Loading data…</p>
     </main>
 
