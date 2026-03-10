@@ -2,33 +2,92 @@
 
 {% block content %}
 <section class="panel">
+  <form class="filters" method="get">
+    <label>
+      Industry
+      <select name="industry">
+        <option value="" {% if not filters.industry %}selected{% endif %}>All industries</option>
+        {% for industry in industries %}
+        <option value="{{ industry }}" {% if filters.industry == industry %}selected{% endif %}>{{ industry }}</option>
+        {% endfor %}
+      </select>
+    </label>
+    <label>
+      Min Score
+      <input name="min_score" type="number" min="0" max="10" value="{{ filters.min_score }}">
+    </label>
+    <label>
+      Search
+      <input name="search" type="search" value="{{ filters.search }}" placeholder="Name, notes, contact">
+    </label>
+    <label>
+      Sort
+      <select name="sort">
+        <option value="score" {% if filters.sort == 'score' %}selected{% endif %}>Score (desc)</option>
+        <option value="price" {% if filters.sort == 'price' %}selected{% endif %}>Price (desc)</option>
+        <option value="target" {% if filters.sort == 'target' %}selected{% endif %}>Target price (desc)</option>
+        <option value="pe" {% if filters.sort == 'pe' %}selected{% endif %}>Implied P/E (low to high)</option>
+        <option value="name" {% if filters.sort == 'name' %}selected{% endif %}>Name (A–Z)</option>
+      </select>
+    </label>
+    <div class="filters-actions">
+      <button type="submit">Apply filters</button>
+      <a class="reset" href="{{ url_for('market.companies') }}">Reset</a>
+    </div>
+  </form>
   <div class="panel-head">
     <h2>Companies</h2>
     <a href="{{ url_for('market.company_new') }}">Add company</a>
   </div>
+  {% if companies %}
   <table>
     <thead>
       <tr>
         <th>Name</th>
-        <th>Sector</th>
         <th>Industry</th>
-        <th>Total</th>
-        <th>Rating</th>
-        <th>Status</th>
+        <th>Score</th>
+        <th>Price</th>
+        <th>P/E</th>
+        <th>Target</th>
+        <th>Contact</th>
       </tr>
     </thead>
     <tbody>
       {% for company in companies %}
       <tr>
-        <td><a href="{{ url_for('market.company_view', company_id=company['id']) }}">{{ company["name"] }}</a></td>
-        <td>{{ company["sector"] }}</td>
-        <td>{{ company["industry"] }}</td>
-        <td>{{ company["total_score"] or 0 }}</td>
-        <td>{{ company["rating"] or "Unscored" }}</td>
-        <td>{{ company["status"] }}</td>
+        <td>
+          <a href="{{ url_for('market.company_view', company_id=company['id']) }}">{{ company['name'] }}</a>
+          <p class="muted">{{ company['status'] }} • {{ company['ownership_type'] }}</p>
+        </td>
+        <td>{{ company['industry'] }}</td>
+        <td>
+          <span class="pill">{{ company['rating'] or 'Unscored' }}</span>
+          <strong>{{ company['total_score'] or 0 }}</strong>
+        </td>
+        <td>
+          {% if company['current_price'] %}{{ company['current_price'] | round(2) }} ETB{% else %}n/a{% endif %}
+        </td>
+        <td>
+          {% if company['implied_pe'] %}{{ company['implied_pe'] | round(2) }}{% else %}n/a{% endif %}
+        </td>
+        <td>
+          {% if company['target_price_for_20pc'] %}{{ company['target_price_for_20pc'] | round(2) }} ETB{% else %}n/a{% endif %}
+        </td>
+        <td>
+          <p class="muted">{{ company['contact_phone'] or 'Phone TBD' }}</p>
+          <p class="muted">{{ company['contact_email'] or 'Email TBD' }}</p>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="7" class="muted compact-row">
+          {{ company['investor_notes'] or company['industry_analysis'] or 'No notes yet.' }}
+        </td>
       </tr>
       {% endfor %}
     </tbody>
   </table>
+  {% else %}
+  <p class="muted">No companies match the selected filters. Try expanding the search or resetting.</p>
+  {% endif %}
 </section>
 {% endblock %}

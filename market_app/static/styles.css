@@ -166,6 +166,52 @@ button {
   padding-left: 1rem;
 }
 
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.8rem;
+  margin-bottom: 1.25rem;
+}
+
+.filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.filters select,
+.filters input {
+  border-color: var(--line);
+  background: #fff;
+}
+
+.filters-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-end;
+}
+
+.filters-actions button {
+  background: var(--brand);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+}
+
+.filters-actions .reset {
+  font-size: 0.85rem;
+  color: var(--brand);
+  text-decoration: underline;
+}
+
+.compact-row {
+  padding-top: 0.6rem;
+  font-size: 0.9rem;
+}
 @media (max-width: 800px) {
   .hero,
   .detail-grid,

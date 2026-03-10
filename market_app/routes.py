@@ -7,11 +7,19 @@ from .repository import (
     create_asset,
     create_company,
     dashboard_summary,
-    list_companies,
+    list_industries,
+    query_companies,
 )
 
 
 bp = Blueprint("market", __name__)
+
+
+def parse_int(value):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
 
 
 @bp.route("/")
@@ -28,7 +36,29 @@ def setup():
 
 @bp.route("/companies")
 def companies():
-    return render_template("companies.html", companies=list_companies())
+    raw_min_score = request.args.get("min_score", "").strip()
+    numeric_min_score = parse_int(raw_min_score)
+    query_filters = {
+        "industry": request.args.get("industry", "").strip(),
+        "search": request.args.get("search", "").strip(),
+        "sort": request.args.get("sort", "score"),
+    }
+    if numeric_min_score is not None:
+        query_filters["min_score"] = numeric_min_score
+
+    companies = query_companies(query_filters)
+    industries = list_industries()
+    return render_template(
+        "companies.html",
+        companies=companies,
+        industries=industries,
+        filters={
+            "industry": query_filters["industry"],
+            "min_score": raw_min_score,
+            "search": query_filters["search"],
+            "sort": query_filters["sort"],
+        },
+    )
 
 
 @bp.route("/companies/new", methods=["GET", "POST"])

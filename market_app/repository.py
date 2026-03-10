@@ -232,3 +232,53 @@ def add_source(company_id, payload):
         ),
     )
     db.commit()
+
+
+def query_companies(filters=None):
+    filters = filters or {}
+    industry = filters.get('industry')
+    min_score = filters.get('min_score')
+    search = (filters.get('search') or '').strip()
+    sort_by = filters.get('sort', 'score')
+
+    params = []
+    clauses = []
+    if industry:
+        clauses.append('c.industry = ?')
+        params.append(industry)
+    if min_score is not None:
+        clauses.append('IFNULL(s.total_score, 0) >= ?')
+        params.append(min_score)
+    if search:
+        term = f"%{search}%"
+        clauses.append('(c.name LIKE ? OR c.industry LIKE ? OR c.sector LIKE ? OR c.investor_notes LIKE ?)')
+        params.extend([term] * 4)
+
+    order_clause = 's.total_score DESC, c.name ASC'
+    if sort_by == 'price':
+        order_clause = 's.current_price DESC, c.name ASC'
+    elif sort_by == 'target':
+        order_clause = 's.target_price_for_20pc DESC, c.name ASC'
+    elif sort_by == 'pe':
+        order_clause = 's.implied_pe ASC, c.name ASC'
+    elif sort_by == 'name':
+        order_clause = 'c.name ASC'
+
+    query = f"""
+        SELECT c.*, s.economy_score, s.industry_score, s.business_strength_score,
+               s.financial_health_score, s.valuation_score, s.total_score, s.rating
+        FROM companies c
+        LEFT JOIN scores s ON s.company_id = c.id
+        {'WHERE ' + ' AND '.join(clauses) if clauses else ''}
+        ORDER BY {order_clause}
+        """
+
+    db = get_db()
+    return db.execute(query, params).fetchall()
+
+def list_industries():
+    db = get_db()
+    rows = db.execute(
+        "SELECT DISTINCT industry FROM companies WHERE industry != '' ORDER BY industry ASC"
+    ).fetchall()
+    return [row['industry'] for row in rows]
