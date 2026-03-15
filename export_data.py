@@ -4,6 +4,20 @@ import sqlite3
 from pathlib import Path
 from typing import Iterable
 
+DIVIDEND_PAYOUT_RATIO = 0.5
+INVESTMENT_UNIT = 1000
+
+def cashflow_per_1000(eps, current_price):
+    try:
+        eps_val = float(eps or 0)
+        price_val = float(current_price or 0)
+    except (TypeError, ValueError):
+        return None
+    if not eps_val or not price_val:
+        return None
+    return (INVESTMENT_UNIT / price_val) * (eps_val * DIVIDEND_PAYOUT_RATIO)
+
+
 
 def normalize_row(row):
     return {key: row[key] for key in row.keys()}
@@ -75,6 +89,7 @@ def export(db_path: Path, out_path: Path) -> None:
         bank["current_price"] = float(row["current_price"] or 0)
         bank["implied_pe"] = float(row["implied_pe"] or 0)
         bank["eps"] = float(row["eps"] or 0)
+        bank["cashflow_per_1000"] = cashflow_per_1000(bank["eps"], bank["current_price"])
         bank["price_notes"] = (
             f"Target price for 20% yield: {bank['target_price_for_20pc']:.2f} ETB"
             if bank["target_price_for_20pc"]

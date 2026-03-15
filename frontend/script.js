@@ -3,6 +3,9 @@ const industrySelect = document.getElementById('industryFilter');
 const scoreInput = document.getElementById('scoreFilter');
 const sortSelect = document.getElementById('sortSelect');
 const searchInput = document.getElementById('searchInput');
+const DIVIDEND_PAYOUT_RATIO = 0.5;
+const INVESTMENT_UNIT = 1000;
+const LIST_SEPARATOR = 'â€¢';
 let banksData = [];
 
 function formatCurrency(value) {
@@ -11,12 +14,21 @@ function formatCurrency(value) {
     : 'n/a';
 }
 
+function computeCashflowPer1000(bank) {
+  const eps = Number(bank.eps || 0);
+  const price = Number(bank.current_price || 0);
+  if (!eps || !price) {
+    return null;
+  }
+  return (INVESTMENT_UNIT / price) * (eps * DIVIDEND_PAYOUT_RATIO);
+}
+
 function renderBank(bank) {
   const card = document.createElement('article');
   card.className = 'card';
   card.innerHTML = `
     <div>
-      <div class="pill">${bank.rating || 'Unscored'} • Score ${bank.total_score || 0}</div>
+      <div class="pill">${bank.rating || 'Unscored'} ${LIST_SEPARATOR} Score ${bank.total_score || 0}</div>
       <h2>${bank.name}</h2>
       <p>${bank.industry} | ${bank.ownership_type} | ${bank.status}</p>
     </div>
@@ -24,8 +36,9 @@ function renderBank(bank) {
     <ul>
       <li>Price: ${formatCurrency(bank.current_price)}</li>
       <li>Implied P/E: ${bank.implied_pe ? bank.implied_pe.toFixed(2) : 'n/a'}</li>
+      <li>Cashflow / 1k: ${formatCurrency(bank.cashflow_per_1000)}</li>
       <li>20% target: ${formatCurrency(bank.target_price_for_20pc)}</li>
-      <li>Contact: ${bank.contact_phone || 'TBD'} • ${bank.contact_email || 'TBD'}</li>
+      <li>Contact: ${bank.contact_phone || 'TBD'} ${LIST_SEPARATOR} ${bank.contact_email || 'TBD'}</li>
     </ul>
     <p><strong>Investor notes:</strong> ${bank.investor_notes || 'Use your ESX broker to place an order once the price hits target.'}</p>
   `;
@@ -51,6 +64,7 @@ function applyFilters() {
     if (sortKey === 'score') return (b.total_score || 0) - (a.total_score || 0);
     if (sortKey === 'price') return (b.current_price || 0) - (a.current_price || 0);
     if (sortKey === 'pe') return (a.implied_pe || Infinity) - (b.implied_pe || Infinity);
+    if (sortKey === 'cashflow') return (b.cashflow_per_1000 || 0) - (a.cashflow_per_1000 || 0);
     if (sortKey === 'target') return (b.target_price_for_20pc || 0) - (a.target_price_for_20pc || 0);
     return 0;
   });
@@ -75,7 +89,10 @@ function populateIndustryOptions(banks) {
 
 async function load() {
   const response = await fetch('data/banks.json');
-  banksData = await response.json();
+  banksData = (await response.json()).map(bank => ({
+    ...bank,
+    cashflow_per_1000: computeCashflowPer1000(bank),
+  }));
   populateIndustryOptions(banksData);
   applyFilters();
 }

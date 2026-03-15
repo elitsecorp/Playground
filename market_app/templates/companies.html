@@ -27,6 +27,7 @@
         <option value="price" {% if filters.sort == 'price' %}selected{% endif %}>Price (desc)</option>
         <option value="target" {% if filters.sort == 'target' %}selected{% endif %}>Target price (desc)</option>
         <option value="pe" {% if filters.sort == 'pe' %}selected{% endif %}>Implied P/E (low to high)</option>
+        <option value="cashflow" {% if filters.sort == 'cashflow' %}selected{% endif %}>Cashflow / 1k (desc)</option>
         <option value="name" {% if filters.sort == 'name' %}selected{% endif %}>Name (A–Z)</option>
       </select>
     </label>
@@ -48,6 +49,7 @@
         <th>Score</th>
         <th>Price</th>
         <th>P/E</th>
+        <th>Cashflow / 1k</th>
         <th>Target</th>
         <th>Contact</th>
       </tr>
@@ -71,6 +73,13 @@
           {% if company['implied_pe'] %}{{ company['implied_pe'] | round(2) }}{% else %}n/a{% endif %}
         </td>
         <td>
+          {% if company['cashflow_per_1000'] is not none %}
+          {{ company['cashflow_per_1000'] | round(2) }} ETB
+          {% else %}
+          n/a
+          {% endif %}
+        </td>
+        <td>
           {% if company['target_price_for_20pc'] %}{{ company['target_price_for_20pc'] | round(2) }} ETB{% else %}n/a{% endif %}
         </td>
         <td>
@@ -79,7 +88,7 @@
         </td>
       </tr>
       <tr>
-        <td colspan="7" class="muted compact-row">
+        <td colspan="8" class="muted compact-row">
           {{ company['investor_notes'] or company['industry_analysis'] or 'No notes yet.' }}
         </td>
       </tr>

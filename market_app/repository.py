@@ -34,17 +34,20 @@ def dashboard_summary():
     return summary, top_companies
 
 
-def list_companies():
-    db = get_db()
-    return db.execute(
-        """
-        SELECT c.*, s.economy_score, s.industry_score, s.business_strength_score,
-               s.financial_health_score, s.valuation_score, s.total_score, s.rating
-        FROM companies c
-        LEFT JOIN scores s ON s.company_id = c.id
-        ORDER BY c.name ASC
-        """
-    ).fetchall()
+DIVIDEND_PAYOUT_RATIO = 0.5
+INVESTMENT_UNIT = 1000
+
+
+
+def calculate_cashflow_per_1000(eps, current_price, payout_ratio=DIVIDEND_PAYOUT_RATIO):
+    try:
+        eps_val = float(eps or 0)
+        price_val = float(current_price or 0)
+    except (TypeError, ValueError):
+        return None
+    if not eps_val or not price_val:
+        return None
+    return (INVESTMENT_UNIT / price_val) * (eps_val * payout_ratio)
 
 
 def company_detail(company_id):
@@ -266,7 +269,8 @@ def query_companies(filters=None):
 
     query = f"""
         SELECT c.*, s.economy_score, s.industry_score, s.business_strength_score,
-               s.financial_health_score, s.valuation_score, s.total_score, s.rating
+               s.financial_health_score, s.valuation_score, s.total_score, s.rating,
+               s.eps, s.implied_pe, s.current_price, s.target_price_for_20pc
         FROM companies c
         LEFT JOIN scores s ON s.company_id = c.id
         {'WHERE ' + ' AND '.join(clauses) if clauses else ''}
@@ -274,7 +278,16 @@ def query_companies(filters=None):
         """
 
     db = get_db()
-    return db.execute(query, params).fetchall()
+    rows = db.execute(query, params).fetchall()
+    companies = []
+    for row in rows:
+        data = dict(row)
+        data['cashflow_per_1000'] = calculate_cashflow_per_1000(
+            data.get('eps'), data.get('current_price')
+        )
+        companies.append(data)
+    return companies
+
 
 def list_industries():
     db = get_db()
